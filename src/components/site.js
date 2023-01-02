@@ -119,12 +119,7 @@ export default class Site extends Component {
                                         <video loop autoPlay className="img-fluid" src="images/marioGame.mp4">
                                         </video></a>
                                 </div>
-                                <div className="item android col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                                    <a href="images/task_star.mp4" className="item-wrap fancybox">
-                                        <span className="icon-search2" />
-                                        <video loop autoPlay className="img-fluid" src="images/task_star.mp4">
-                                        </video></a>
-                                </div>
+                                
                                 <div className="item misc col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
                                     <a href="images/maze.mp4" className="item-wrap fancybox">
                                         <span className="icon-search2" />
@@ -156,7 +151,12 @@ export default class Site extends Component {
                                         <video loop autoPlay className="img-fluid" src="images/memorizer.mp4">
                                         </video></a>
                                 </div>
-                             
+                                <div className="item android col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
+                                    <a href="images/task_star.mp4" className="item-wrap fancybox">
+                                        <span className="icon-search2" />
+                                        <video loop autoPlay className="img-fluid" src="images/task_star.mp4">
+                                        </video></a>
+                                </div>
                             </div>
                         </div>
                     </section>
