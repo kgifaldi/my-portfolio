@@ -63,13 +63,13 @@ export default class Site extends Component {
                             </div>
                         </div>
                     </header>
-                    <div className="site-blocks-cover overlay bg-light" style={{ backgroundImage: 'url("my-portfolio/images/hero_bg_1.jpg")' }} id="home-section">
+                    <div className="site-blocks-cover overlay bg-light" style={{ backgroundImage: 'url("images/hero_bg_1.jpg")' }} id="home-section">
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-12 text-center align-self-center text-intro">
                                     <div className="row justify-content-center">
                                         <div className="col-lg-8">
-                                            <h1 className="text-white" data-aos="fade-up" data-aos-delay>Kyle Gifaldi</h1> <img src="my-portfolio/images/kyle.jfif" class="kyle-image"></img>
+                                            <h1 className="text-white" data-aos="fade-up" data-aos-delay>Kyle Gifaldi</h1> <img src="images/kyle.jfif" class="kyle-image"></img>
                                             <p className="lead text-white" data-aos="fade-up" data-aos-delay={100}>Personal website</p>
                                         </div>
                                     </div>
@@ -88,7 +88,7 @@ export default class Site extends Component {
                                     <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.</p>
                                 </div>
                                 <div className="col-lg-4">
-                                    <img src="my-portfolio/images/about.jpg" alt="Image" className="img-fluid" />
+                                    <img src="images/about.jpg" alt="Image" className="img-fluid" />
                                 </div>
                                 <div className="col-lg-4">
                                     <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
@@ -114,46 +114,46 @@ export default class Site extends Component {
                             </div>
                             <div id="posts" className="row no-gutter">
                                 <div className="item android col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                                    <a href="my-portfolio/images/marioGame.mp4" className="item-wrap fancybox">
+                                    <a href="images/marioGame.mp4" className="item-wrap fancybox">
                                         <span className="icon-search2" />
-                                        <video loop autoPlay className="img-fluid" src="my-portfolio/images/marioGame.mp4">
+                                        <video loop autoPlay className="img-fluid" src="images/marioGame.mp4">
                                         </video></a>
                                 </div>
                                 <div className="item android col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                                    <a href="my-portfolio/images/task_star.mp4" className="item-wrap fancybox">
+                                    <a href="images/task_star.mp4" className="item-wrap fancybox">
                                         <span className="icon-search2" />
-                                        <video loop autoPlay className="img-fluid" src="my-portfolio/images/task_star.mp4">
+                                        <video loop autoPlay className="img-fluid" src="images/task_star.mp4">
                                         </video></a>
                                 </div>
                                 <div className="item misc col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                                    <a href="my-portfolio/images/maze.mp4" className="item-wrap fancybox">
+                                    <a href="images/maze.mp4" className="item-wrap fancybox">
                                         <span className="icon-search2" />
-                                        <video loop autoPlay className="img-fluid" src="my-portfolio/images/maze.mp4">
+                                        <video loop autoPlay className="img-fluid" src="images/maze.mp4">
                                         </video></a>
                                 </div>
                                 <div className="item misc col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                                    <a href="my-portfolio/images/maya.mp4" className="item-wrap fancybox">
+                                    <a href="images/maya.mp4" className="item-wrap fancybox">
                                         <span className="icon-search2" />
-                                        <video loop autoPlay className="img-fluid" src="my-portfolio/images/maya.mp4">
+                                        <video loop autoPlay className="img-fluid" src="images/maya.mp4">
                                         </video></a>
                                 </div>
                                 <div className="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                                    <a href="my-portfolio/images/josephacademy.mp4" className="item-wrap fancybox">
+                                    <a href="images/josephacademy.mp4" className="item-wrap fancybox">
                                         <span className="icon-search2" />
-                                        <video loop autoPlay className="img-fluid" src="my-portfolio/images/josephacademy.mp4">
+                                        <video loop autoPlay className="img-fluid" src="images/josephacademy.mp4">
                                         </video></a>
                                 </div>
                                 <div className="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                                    <a href="my-portfolio/images/froogle.mp4" className="item-wrap fancybox">
+                                    <a href="images/froogle.mp4" className="item-wrap fancybox">
                                        <span className="icon-search2" />
-                                        <video loop autoPlay className="img-fluid" src="my-portfolio/images/froogle.mp4">
+                                        <video loop autoPlay className="img-fluid" src="images/froogle.mp4">
                                         </video></a>
                                 </div>
 
                                 <div className="item web col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-                                    <a href="my-portfolio/images/memorizer.mp4" className="item-wrap fancybox">
+                                    <a href="images/memorizer.mp4" className="item-wrap fancybox">
                                         <span className="icon-search2" />
-                                        <video loop autoPlay className="img-fluid" src="my-portfolio/images/memorizer.mp4">
+                                        <video loop autoPlay className="img-fluid" src="images/memorizer.mp4">
                                         </video></a>
                                 </div>
                              
@@ -172,30 +172,30 @@ export default class Site extends Component {
                                     <h4 className="brown-text light">Languages</h4>
                                     <div className="row text-center">
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/java.png" className="responsive-img" />Java
+                                            <img alt="" src="images/java.png" className="responsive-img" />Java
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/cpp.png" className="responsive-img" />C/C++
+                                            <img alt="" src="images/cpp.png" className="responsive-img" />C/C++
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/python.png" className="responsive-img" />Python
+                                            <img alt="" src="images/python.png" className="responsive-img" />Python
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/js.png" className="responsive-img" />JavaScript
+                                            <img alt="" src="images/js.png" className="responsive-img" />JavaScript
                     </div>
                                     </div>
                                     <div className="row text-center">
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/html5.png" className="responsive-img" />HTML5
+                                            <img alt="" src="images/html5.png" className="responsive-img" />HTML5
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/css3.png" className="responsive-img" />CSS
+                                            <img alt="" src="images/css3.png" className="responsive-img" />CSS
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/bash.png" className="responsive-img" />Bash
+                                            <img alt="" src="images/bash.png" className="responsive-img" />Bash
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/matlab.png" className="responsive-img" />MATLAB
+                                            <img alt="" src="images/matlab.png" className="responsive-img" />MATLAB
                     </div>
                                     </div>
                                 </div>
@@ -205,19 +205,19 @@ export default class Site extends Component {
                                     <h4 className="brown-text light">Frameworks</h4>
                                     <div className="row text-center">
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/angular.png" className="responsive-img" />AngularJS
+                                            <img alt="" src="images/angular.png" className="responsive-img" />AngularJS
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/nodejs.png" className="responsive-img" />NodeJS
+                                            <img alt="" src="images/nodejs.png" className="responsive-img" />NodeJS
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/spring.png" className="responsive-img" />Spring
+                                            <img alt="" src="images/spring.png" className="responsive-img" />Spring
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/django.png" className="responsive-img" />Django
+                                            <img alt="" src="images/django.png" className="responsive-img" />Django
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/flask.png" className="responsive-img" />Flask
+                                            <img alt="" src="images/flask.png" className="responsive-img" />Flask
                     </div>
                                     </div>
                                 </div>
@@ -227,36 +227,36 @@ export default class Site extends Component {
                                     <h4 className="brown-text light">Tools</h4>
                                     <div className="row text-center">
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/github_dark.png" className="responsive-img" />Git
+                                            <img alt="" src="images/github_dark.png" className="responsive-img" />Git
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/jenkins.png" className="responsive-img" />Jenkins
+                                            <img alt="" src="images/jenkins.png" className="responsive-img" />Jenkins
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/wildfly.png" className="responsive-img" />WildFly
+                                            <img alt="" src="images/wildfly.png" className="responsive-img" />WildFly
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/nodejs.png" className="responsive-img" />Unix
+                                            <img alt="" src="images/nodejs.png" className="responsive-img" />Unix
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/azure.png" className="responsive-img" />Azure
+                                            <img alt="" src="images/azure.png" className="responsive-img" />Azure
                     </div>
                                     </div>
                                     <div className="row text-center">
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/docker.png" className="responsive-img" />Docker
+                                            <img alt="" src="images/docker.png" className="responsive-img" />Docker
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/apache.png" className="responsive-img" />HTTP Server + JMeter
+                                            <img alt="" src="images/apache.png" className="responsive-img" />HTTP Server + JMeter
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/grafana.png" className="responsive-img" />Grafana
+                                            <img alt="" src="images/grafana.png" className="responsive-img" />Grafana
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/angular.png" className="responsive-img" />Ansible
+                                            <img alt="" src="images/angular.png" className="responsive-img" />Ansible
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/androidstudio.png" className="responsive-img" />Android Studio
+                                            <img alt="" src="images/androidstudio.png" className="responsive-img" />Android Studio
                     </div>
                                     </div>
                                 </div>
@@ -266,16 +266,16 @@ export default class Site extends Component {
                                     <h4 className="brown-text light">Databases</h4>
                                     <div className="row text-center">
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/oracle.png" className="responsive-img" />SQL
+                                            <img alt="" src="images/oracle.png" className="responsive-img" />SQL
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/mysql.png" className="responsive-img" />MySQL
+                                            <img alt="" src="images/mysql.png" className="responsive-img" />MySQL
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/mongodb.png" className="responsive-img" />MongoDB
+                                            <img alt="" src="images/mongodb.png" className="responsive-img" />MongoDB
                     </div>
                                         <div className="col s4 m2">
-                                            <img alt="" src="/my-portfolio/images/toad.png" className="responsive-img" />Toad
+                                            <img alt="" src="images/toad.png" className="responsive-img" />Toad
                     </div>
                                     </div>
                                 </div>
