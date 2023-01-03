@@ -69,7 +69,7 @@ export default class Site extends Component {
                                 <div className="col-12 text-center align-self-center text-intro">
                                     <div className="row justify-content-center">
                                         <div className="col-lg-8">
-                                            <h1 className="text-white" data-aos="fade-up" data-aos-delay>Kyle Gifaldi</h1> <img src="images/kyle.jfif" class="kyle-image"></img>
+                                            <h1 className="text-white" data-aos="fade-up" data-aos-delay>Kyle Gifaldi</h1> 
                                             <p className="lead text-white" data-aos="fade-up" data-aos-delay={100}>Personal website</p>
                                         </div>
                                     </div>
@@ -81,19 +81,15 @@ export default class Site extends Component {
                         <div className="container">
                             <div className="row ">
                                 <div className="col-12 mb-4 position-relative">
-                                    <h2 className="section-title">About Us</h2>
+                                    <h2 className="section-title text-center mb-5">About</h2>
                                 </div>
-                                <div className="col-lg-4">
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.</p>
+                                <div className="col-12 position-relative text-center">
+                                    <p>I'm a full stack software engineer currently specializing in building high performance enterprise software at AT&T.</p>
                                 </div>
-                                <div className="col-lg-4">
-                                    <img src="images/about.jpg" alt="Image" className="img-fluid" />
+                                <div className="col-12 position-relative text-center">
+                                    <img src="images/kyle.jfif" class="kyle-image"></img>
                                 </div>
-                                <div className="col-lg-4">
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.</p>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -106,7 +102,7 @@ export default class Site extends Component {
                             </div>
                             <div className="row justify-content-center mb-5" data-aos="fade">
                                 <div id="filters" className="filters text-center button-group col-md-7">
-                                    <button className="btn btn-primary active" data-filter="*">All</button>
+                                    <button id="all_button" className="btn btn-primary active" data-filter="*">All</button>
                                     <button className="btn btn-primary" data-filter=".web">Web</button>
                                     <button className="btn btn-primary" data-filter=".android">Android</button>
                                     <button className="btn btn-primary" data-filter=".misc">Misc</button>
