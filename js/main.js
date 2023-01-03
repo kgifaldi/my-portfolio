@@ -277,6 +277,9 @@ jQuery(document).ready(function($) {
 	  $.fancybox.open( visibleLinks, {}, visibleLinks.index( this ) );
 
 	  return false;
-	});
+  });
 
+
+	document.getElementById("all_button").click();
+	console.log("gifaldi");
 });
